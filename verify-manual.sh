@@ -1,0 +1,25 @@
+#!/bin/bash
+# Manual verification script for ResultsConsumer
+
+CONTRACT_ADDRESS="0xf722A401935d1ACa82583544aF72582e92376841"
+ROUTER="0xf9B8fc078197181C841c296C876945aaa425B278"
+DON_ID="0x66756e2d626173652d7365706f6c69612d31000000000000000000000000000000"
+
+echo "=== ResultsConsumer Verification ==="
+echo ""
+echo "Contract Address: $CONTRACT_ADDRESS"
+echo "BaseScan URL: https://sepolia.basescan.org/address/$CONTRACT_ADDRESS#code"
+echo ""
+echo "Constructor Arguments:"
+echo "  Router (address): $ROUTER"
+echo "  DON ID (bytes32): $DON_ID"
+echo ""
+echo "To verify manually:"
+echo "1. Go to: https://sepolia.basescan.org/address/$CONTRACT_ADDRESS#code"
+echo "2. Click 'Contract' tab → 'Verify and Publish'"
+echo "3. Select: Solidity (Standard JSON Input)"
+echo "4. Compiler: 0.8.20"
+echo "5. License: MIT"
+echo "6. Upload the Standard JSON Input from: artifacts/contracts/ResultsConsumer.sol/ResultsConsumer.json"
+echo "7. Constructor arguments (ABI-encoded):"
+echo "   Use the ABI encoder with: [\"$ROUTER\", \"$DON_ID\"]"

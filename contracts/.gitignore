@@ -1,0 +1,34 @@
+# Hardhat files
+cache/
+artifacts/
+typechain-types/
+
+# Environment variables
+.env
+.env.local
+
+# Node modules
+node_modules/
+
+# Coverage reports
+coverage/
+coverage.json
+
+# Gas reports
+gas-report.txt
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+

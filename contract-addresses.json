@@ -1,0 +1,13 @@
+{
+  "network": "base-sepolia",
+  "chainId": "84532",
+  "ResultsConsumer": "0x5D8F251D046819757054673CA6bB143f36B389FF",
+  "PredictionContract": "0x3bf17469296eE3dADE758cD2F82F76f76EF14d40",
+  "deployer": "0x575109e921C6d6a1Cb7cA60Be0191B10950AfA6C",
+  "timestamp": "2025-12-01T20:00:00.000Z",
+  "chainlink": {
+    "router": "0xf9B8fc078197181C841c296C876945aaa425B278",
+    "donId": "fun-base-sepolia-1",
+    "subscriptionId": "523"
+  }
+}
