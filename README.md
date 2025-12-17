@@ -1,8 +1,8 @@
-# Baseleague
+# ForgeBet
 
 A decentralized head-to-head football prediction platform built on Base.
 
-BaseLeague is a Web3 prediction platform where users compete head-to-head on Premier League match outcomes. Stake ETH on your predictions, get matched with opponents, and win rewards when results are settled on-chain.
+ForgeBet is a Web3 prediction platform where users compete head-to-head on Premier League match outcomes. Stake ETH on your predictions, get matched with opponents, and win rewards when results are settled on-chain.
 
 ## How It Works
 1. Browse Matches - View upcoming Premier League fixtures
@@ -35,7 +35,7 @@ BaseLeague is a Web3 prediction platform where users compete head-to-head on Pre
 ### Installation
 ```bash
 git clone <repository-url>
-cd baseleague
+cd forgebet-contracts
 
 # Contracts
 cd contracts && npm install
@@ -85,7 +85,7 @@ Serves fixtures/results at `http://localhost:3002` in development.
 
 ## Project Structure
 ```
-baseleague/
+forgebet/
 ├── contracts/   # Solidity, Hardhat, scripts, tests
 ├── backend/     # Express server, settlement/cron scripts
 └── client/      # React frontend (Vite)
